@@ -1,0 +1,129 @@
+body{
+    background-image : url('https://miro.medium.com/max/1120/1*JziduX-y-2sKETAYHDzMJA.jpeg');
+    height: 720px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover;
+    background-position: left  ;
+    margin:auto;
+    }
+
+.heading{
+    color :#000;
+    font-family: calibri;
+    font-size : 25px;
+    text-align:center;
+    font-style : bold;
+    margin:auto;
+    text-shadow: 2px 1px #000000;
+    background-color:#e6370b;
+    position: relative;
+    top: -35px;
+    
+    }
+
+.button
+{
+    border-radius:20px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    background-color:white;
+    box-shadow: 2.5px 1.5px #000;
+    position: absolute;
+    font-family:calibri;
+    opacity: 0.8;
+
+    }
+
+.button:hover
+{
+    color:#e6370b ;
+    opacity:0.6;
+    }
+
+.back-page
+{
+    font-weight:bold;
+    margin-left:3%;
+    margin-top:-2%;
+    position:absolute;
+    }
+
+
+
+.images {
+    
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    gap: 35px;
+    opacity: 0.80
+  }
+
+.image1 {
+
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    gap: 35px;
+    opacity: 0.80
+  }
+
+
+.daimg{
+    border-radius: 25px;
+    width: 463px;
+    height: 300px;
+    border:2px solid black;
+    box-shadow: 15px 15px 10px #000;
+
+}
+
+.mlimg{
+    border-radius: 25px;
+    width: 463px;
+    height: 300px;
+    border:2px solid black;
+    box-shadow: 15px 15px 10px #000;
+    
+}
+
+.dlimg{
+    border-radius: 25px;
+    width: 463px;
+    height: 300px;
+    border:2px solid #000;
+    box-shadow: 15px 15px 10px #000;
+    
+}
+
+.pbimg{
+    border-radius: 25px;
+    width: 463px;
+    height: 300px;
+    border:2px solid #000;
+    box-shadow: 15px 15px 10px #000;
+
+}
+
+.img:hover{
+    opacity:0.60;
+    border-radius: 25px;
+    
+    
+}
+
+
+
+.foot{
+    background-color:#e6370b ;
+    position: relative;
+    color:#000;
+    font-size:25px;
+    font-family:calibri;
+    font-weight:bold;
+    text-align:center;
+    margin-top:14.2%;
+    }

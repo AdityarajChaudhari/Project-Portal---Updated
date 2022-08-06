@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <header>
+                <h1>
+                    Data Science Projects
+                </h1>
+            </header>
+        </div>
+
+        <div class="back-page">
+            <a href="{{ url_for ('home') }}" , methods = "GET">
+                <input class="button" type="submit"  value="⬅Back TO home page" name="" >
+            </a>
+        </div>
+
+
+        <div class = 'images'>
+
+            <div class="da">
+                <a>
+                <div class="img">
+                    <a href="{{ url_for('da_project') }}", method = "GET">
+                        <img class="daimg" src= "https://www.passionateinmarketing.com/wp-content/uploads/2021/09/263-2637118_the-use-of-data-analytics-is-becoming-more.jpg">
+                    </a>
+                </div>
+                </a>
+            </div>
+
+            <div class="pb">
+                <div class="img">
+                    <a href="{{ url_for('pb_project') }}", method = "GET">
+                        <img class="pbimg" src= "https://pbs.twimg.com/media/Eq-fY0DVkAAvfOD.png">
+                    </a>
+                </div>
+            </div>
+
+            <div class="ml">
+                <a>
+                <div class="img">
+                    <a href="{{ url_for('ml_project') }}", method = "GET">
+                        <img class="mlimg" src= "https://www.smartdatacollective.com/wp-content/uploads/2021/06/machine-learning-helps-life-insurance-scaled.jpg">
+                    </a>
+                </div>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="foot">
+            <footer>Copyright © 2022 by Adityaraj Hemant Chaudhari</footer>
+        </div>
+
+
+    </div>
+</body>
+</html>
